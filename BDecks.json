@@ -1,0 +1,20 @@
+{
+	"id": "BDecks",
+	"name": "B Decks",
+	"author": [
+		"Bumpy",
+		"Facade"
+	],
+	"description": "Adds dumb alternate decks",
+	"prefix": "BDECK",
+	"main_file": "BDecks.lua",
+	"priority": 1,
+	"badge_colour": "",
+	"badge_text_colour": "",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (>=1.0.0~BETA-0323b)",
+		"Lovely (>=0.7)",
+		"Balatro (>=1.0.1o)"
+	]
+}
