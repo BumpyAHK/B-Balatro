@@ -123,13 +123,13 @@ SMODS.Back{ -- Made by Facade
 }
 
 SMODS.Back{ -- Made by Facade
-    name = "Steel Ace Bonanza",
-    key = "steelacebonanza",
+    name = "Steel King Bonanza",
+    key = "steelkingbonanza",
     pos = {x = 6, y = 1},
-    config = {rank = 'Ace'},
+    config = {rank = 'King'},
     loc_txt = {
-        name = "Steel Ace Bonanza",
-        text = {"All cards are Aces", 
+        name = "Steel King Bonanza",
+        text = {"All cards are Kings", 
         "All cards have a {C:red}Red Seal{}",  
         "All cards are {X:mult,C:white}Steel{}",
                 "{C:attention}+2{} hand size"}
