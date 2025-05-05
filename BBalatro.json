@@ -1,13 +1,14 @@
 {
-	"id": "BDecks",
-	"name": "B Decks",
+	"id": "BBalatro",
+	"name": "B-Balatro",
 	"author": [
 		"Bumpy",
-		"Facade"
+		"Facade",
+		"Jaio"
 	],
-	"description": "Adds dumb alternate decks",
-	"prefix": "BDECK",
-	"main_file": "BDecks.lua",
+	"description": "Dumb alternate content for Balatro",
+	"prefix": "BBAL",
+	"main_file": "BBalatro.lua",
 	"priority": 1,
 	"badge_colour": "",
 	"badge_text_colour": "",

@@ -1,6 +1,10 @@
---_RELEASE_MODE = false -- REMOVE FOR RELEASE
-
-
+init = function()
+	local deckbuilder = Back.apply_to_run
+	function Back.apply_to_run(self)
+		deckbuilder(self)
+	end
+end
+			
 
 SMODS.Back{ -- Made by Bumpy
     name = "Geology Deck",
