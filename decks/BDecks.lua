@@ -402,16 +402,7 @@ SMODS.Back{ -- Made by Bumpy
             mult = math.floor(tot/2)
             update_hand_text({delay = 0}, {mult = mult, chips = hand_chips})
 			
-			if G.GAME.last_blind and G.GAME.last_blind.boss then
-				G.E_MANAGER:add_event(Event({
-						func = (function()
-							add_tag(Tag('tag_double'))
-							play_sound('generic1', 0.9 + math.random()*0.1, 0.8)
-							play_sound('holo1', 1.2 + math.random()*0.1, 0.4)
-							return true
-						end)
-					}))
-				end			
+			
 
             G.E_MANAGER:add_event(Event({
                 func = (function()
@@ -456,5 +447,15 @@ SMODS.Back{ -- Made by Bumpy
             return {
             }
         end
+		if context.context == 'eval' and G.GAME.last_blind and G.GAME.last_blind.boss then
+				G.E_MANAGER:add_event(Event({
+						func = (function()
+							add_tag(Tag('tag_double'))
+							play_sound('generic1', 0.9 + math.random()*0.1, 0.8)
+							play_sound('holo1', 1.2 + math.random()*0.1, 0.4)
+							return true
+						end)
+					}))
+				end			
     end
 }
