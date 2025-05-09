@@ -364,7 +364,6 @@ SMODS.Back{ -- Made by Bumpy
 			extra_hand_bonus = 2, 
 			extra_discard_bonus = 1, 
 			no_interest = true, 
-			joker_slot = 1,
 			consumables = {'c_fool', 'c_fool', 'c_hex'}, 
 			consumable_slot = -1, 
 			spectral_rate = 2, 
@@ -372,6 +371,7 @@ SMODS.Back{ -- Made by Bumpy
 			vouchers = {'v_tarot_merchant','v_planet_merchant', 'v_overstock_norm', 'v_crystal_ball', 'v_telescope'}, 
 			ante_scaling = 2, 
 			randomize_rank_suit = true},
+			hand_size = 2,
     loc_txt = {
         name = "Smeared Deck",
         text ={
